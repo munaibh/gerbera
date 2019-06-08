@@ -1,9 +1,9 @@
-<h1 align="center">Rashomon</h1>
+<h1 align="center">Gerbera</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/npm-coming%20soon-blue.svg" alt="version">
-  <img src="https://img.shields.io/github/issues/munaibh/rashomon.svg" alt="issues">
-  <img src="https://img.shields.io/github/license/munaibh/rashomon.svg" alt="license">
+  <img src="https://img.shields.io/github/issues/munaibh/gerbera.svg" alt="issues">
+  <img src="https://img.shields.io/github/license/munaibh/gerbera.svg" alt="license">
 </p>
 
 <br>
@@ -20,7 +20,7 @@
 
 <br>
 
-Rashomon is a highly opinionated take on Gutenberg project structure and automates a lot of the menial tasks like scaffolding, so you don't have to. This package is useful for:
+Gerbera is a highly opinionated take on Gutenberg project structure and automates a lot of the menial tasks like scaffolding, so you don't have to. This package is useful for:
 
 * **Easy to use** - Only a few commands to get started!
 * **Lightweight** - One dependency, we handle building and generating new projects all in one place.
@@ -34,7 +34,7 @@ If you like what we do, please consider starring or tweeting about this project 
 
 ## ❯ Getting started
 
-Get started with Rashomon, with a few simple terminal commands (windows support coming very soon!)
+Get started with Gerbera, with a few simple terminal commands (windows support coming very soon!)
 
 * [Install](#-install)
 * [Usage](#-usage)
@@ -51,12 +51,12 @@ Get started with Rashomon, with a few simple terminal commands (windows support 
 Install globally with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install @rashomon/cli --save
+$ npm install @gerbera/cli --save
 ```
 Use with [npx](https://yarnpkg.com/en/):
 
 ```sh
-$ npx @rashmon/cli <command>
+$ npx @gerbera/cli <command>
 ```
 
 <small>_(Requires Node.js 8.6 or higher. Please let us know if you need support for an earlier version by creating an [issue](../../issues/new).)_</small>
@@ -67,14 +67,14 @@ $ npx @rashmon/cli <command>
 
 ### Block Creation
 
-The easiest way to get started with rashomon is to run the `create` command.
+The easiest way to get started with gerbera is to run the `create` command.
 
 <div align="center">
   <img src="./docs/media/terminal.png" alt="terminal example" width="750"><br>
 </div>
 
 ```sh
-$ npx @rashomon/cli create example-block
+$ npx @gerbera/cli create example-block
 cd example-block
 ```
 
@@ -144,7 +144,7 @@ We generate a default project structure that we feel fits our needs (and maybe y
 
 ### Configuration File 
 
-We create a config file called `rashomon.config.js` which contains various information we use to automate the webpack builds (e.g. creating js files to enqueue scripts). An example is below:
+We create a config file called `gerbera.config.js` which contains various information we use to automate the webpack builds (e.g. creating js files to enqueue scripts). An example is below:
 
 ```js
 {
