@@ -1,3 +1,3 @@
 module.exports = (args, rawArgs) => {
-  console.log('Serve!', args, rawArgs)
+  console.log('Create!', args, rawArgs)
 }
