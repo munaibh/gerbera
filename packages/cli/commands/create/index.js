@@ -24,7 +24,7 @@ const startCreate = async (args) => {
   // Installing NPM Dependencies
   spinner.start( '2. Installing npm packages...' )
   await exec(params.name, `npm install`)
-  spinner.succeed();
+  spinner.succeed()
 }
 
 module.exports = (args, rawArg) => {

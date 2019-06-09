@@ -7,5 +7,5 @@ module.exports = (name, command, dir) => {
   return new Promise(async resolve => {
 		await execa(`cd ${dir}${name} && ${command}`)
 		resolve(true)
-	});
+	})
 }

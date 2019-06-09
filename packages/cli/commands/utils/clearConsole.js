@@ -1,4 +1,4 @@
-const consoleClear = require('console-clear');
+const consoleClear = require('console-clear')
 
 module.exports = () => {
   consoleClear(true)
