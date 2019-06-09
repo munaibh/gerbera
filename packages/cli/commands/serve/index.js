@@ -9,5 +9,6 @@ const startDocker = () => {
 }
 
 module.exports = (args, rawArgs) => {
-  startDocker()
+  const useDocker = args.includes('--docker')
+  useDocker && startDocker()
 }
