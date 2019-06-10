@@ -8,7 +8,7 @@
     "build": "gerbera build"
   },
   "dependencies": {
-    "@gerbera/cli": "0.0.3"
+    "@gerbera/cli": "^0.0.3"
   },
   "keywords": [],
   "author": "",
