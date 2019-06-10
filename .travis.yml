@@ -7,6 +7,7 @@ jobs:
     - stage: deploy
       before_deploy:
       - cd packages/cli
+      script: skip
       deploy:
         provider: npm
         email: $NPM_USERNAME
