@@ -2,9 +2,15 @@ language: node_js
 node_js:
   - "lts/*"
 
-deploy:
-  provider: script
-  script: "cd packages/cli && npm publish"
-  skip_cleanup: true
-  on:
-    tags: true
+jobs:
+  include:
+    - stage: deploy
+      before_deploy:
+      - cd packages/cli
+      deploy:
+        provider: npm
+        email: $NPM_USERNAME
+        api_key: $NPM_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
