@@ -1,9 +1,15 @@
 <h1 align="center">Gerbera</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@gerbera/cli.svg" alt="version">
-  <img src="https://img.shields.io/github/issues/munaibh/gerbera.svg" alt="issues">
-  <img src="https://travis-ci.com/munaibh/gerbera.svg?branch=master" alt="build">
+  <a href="https://www.npmjs.com/package/@gerbera/cli">
+    <img src="https://img.shields.io/npm/v/@gerbera/cli.svg" alt="version">
+  </a>
+  <a href="https://github.com/munaibh/gerbera/issues">
+    <img src="https://img.shields.io/github/issues/munaibh/gerbera.svg" alt="issues">
+  </a>
+  <a href="https://travis-ci.com/munaibh/gerbera">
+    <img src="https://travis-ci.com/munaibh/gerbera.svg?branch=master" alt="build">
+  </a>
   <img src="https://img.shields.io/github/license/munaibh/gerbera.svg" alt="license">
 </p>
 
@@ -11,7 +17,7 @@
 
 <p align="center">
   <b>An opinionated CLI to scaffold Gutenberg blocks that are easy to customize.</b><br>
-  <sub>Because a good project structure is the hardest thing in life ▌</sub>
+  <sub>Why? Because a good project structure is the hardest thing in life!</sub>
 </p>
 
 <p align="center">
