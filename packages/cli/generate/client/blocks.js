@@ -1,1 +1,2 @@
-import './example/block.js'
+const importAll = r => r.keys().forEach(r)
+importAll(require.context('./', true, /block\.js$/))
