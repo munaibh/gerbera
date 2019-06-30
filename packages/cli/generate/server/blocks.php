@@ -17,6 +17,13 @@ function plugins_name($name) {
  * Enqueue block assets, these are the result of the build.
  **/
 
+function get_plugin_url($asset) {
+  $is_debug = defined('WP_DEBUG') && WP_DEBUG === true;
+  return ($is_debug)
+    ? 'http://localhost:9000/' . $asset
+    : plugins_url( '../build/' . $asset, dirname(__FILE__));
+}
+
 add_action('enqueue_block_assets', '<%=namespace%>_enqueue_block_assets');
 
 function <%=namespace%>_enqueue_block_assets() {
