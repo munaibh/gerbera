@@ -21,8 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="./docs/media/terminal.png" alt="terminal example" width="750"><br>
-  <sub>(Examples shown use <a href="#survey-prompt">Carbon</a>)</a></sub>
+  <img src="./docs/media/terminal-create.png" alt="terminal example" width="750"><br>
+  <sub>(Examples shown use <a href="https://carbon.now.sh">Carbon</a>)</a></sub>
 </p>
 
 <br>
@@ -77,7 +77,7 @@ $ npx @gerbera/cli <command>
 The easiest way to get started with gerbera is to run the `create` command.
 
 <div align="center">
-  <img src="./docs/media/terminal.png" alt="terminal example" width="750"><br>
+  <img src="./docs/media/terminal-create.png" alt="terminal create" width="750"><br>
 </div>
 
 ```sh
@@ -94,7 +94,7 @@ cd example-block
 Once everything is created, you can go into your folder and run the development script.
 
 <div align="center">
-  <img src="./docs/media/terminal.png" alt="terminal example" width="750"><br>
+  <img src="./docs/media/terminal-serve.png" alt="terminal serve" width="750"><br>
 </div>
 
 ```sh
@@ -113,7 +113,7 @@ $ npm run serve <params>
 To produce production code run `npm run build`, which minifies and uglified code by default.
 
 <div align="center">
-  <img src="./docs/media/terminal.png" alt="terminal example" width="750"><br>
+  <img src="./docs/media/terminal-build.png" alt="terminal build" width="750"><br>
 </div>
 
 ```sh
