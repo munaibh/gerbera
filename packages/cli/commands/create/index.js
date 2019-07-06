@@ -16,6 +16,11 @@ const startCreate = async (args) => {
   const template = path.join(__dirname, '..', '..', 'generate')
   const params = getParams(args)
   
+  console.log(`🎉  Creating gutenberg project ${chalk.bold.blue(params.name)} \n`)
+  console.log(chalk.dim(`${path.join(process.cwd(), params.name)}`))
+  console.log(chalk.dim(`This could take a while, grab some tea...`))
+  console.log('')
+
   // Create Block using template directory
   spinner.start( `1. Creating block called -> ${params.name}` )
   await copy(template, path.join(process.cwd(), params.name), params)
@@ -25,6 +30,7 @@ const startCreate = async (args) => {
   spinner.start( '2. Installing npm packages...' )
   await exec(params.name, `npm install`)
   spinner.succeed()
+  console.log('')
 }
 
 module.exports = (args, rawArg) => {
