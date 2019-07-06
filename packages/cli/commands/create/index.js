@@ -22,12 +22,12 @@ const startCreate = async (args) => {
   console.log('')
 
   // Create Block using template directory
-  spinner.start( `1. Creating block called -> ${params.name}` )
+  spinner.start( `Scaffolding Gutenberg Block...` )
   await copy(template, path.join(process.cwd(), params.name), params)
   spinner.succeed()
 
   // Installing NPM Dependencies
-  spinner.start( '2. Installing npm packages...' )
+  spinner.start( 'Installing npm packages...' )
   await exec(params.name, `npm install`)
   spinner.succeed()
   console.log('')
