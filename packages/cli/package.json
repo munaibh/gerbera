@@ -1,6 +1,6 @@
 {
   "name": "@gerbera/cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated gutenberg scaffold cli",
   "bin": {
     "gerbera": "bin/gerbera.js"
