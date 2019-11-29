@@ -41,11 +41,6 @@ module.exports = {
     path: process.cwd() + '/build',
     publicPath: "http://localhost:9000/"
   },
-  resolve: {
-    alias: {
-      'react-dom': '@hot-loader/react-dom'
-    }
-  },
   watch: false,
   stats: "errors-only",
 	module: {
