@@ -7,8 +7,8 @@
   <a href="https://github.com/munaibh/gerbera/issues">
     <img src="https://img.shields.io/github/issues/munaibh/gerbera.svg" alt="issues">
   </a>
-  <a href="https://travis-ci.com/munaibh/gerbera">
-    <img src="https://travis-ci.com/munaibh/gerbera.svg?branch=master" alt="build">
+  <a href="#workflows">
+    <img src="https://github.com/munaibh/gerbera/workflows/Gerbera%20Package/badge.svg" alt="build">
   </a>
   <img src="https://img.shields.io/github/license/munaibh/gerbera.svg" alt="license">
 </p>
